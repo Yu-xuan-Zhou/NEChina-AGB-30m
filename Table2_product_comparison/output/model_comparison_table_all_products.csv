@@ -1,0 +1,18 @@
+Data source,Method,Year,Kind,Resolution,Density_Mg_ha,Forest_area_Mha,Total_C_PgC
+Cubist 2005,Cubist,2005,internal,30m,86.84,77.41,3.36
+MLR 2005,MLR,2005,internal,30m,102.71,74.05,3.8
+RF 2005,RF,2005,internal,30m,83.63,61.89,2.59
+Cubist 2015,Cubist,2015,internal,30m,74.59,82.25,3.07
+MLR 2015,MLR,2015,internal,30m,82.26,77.92,3.21
+RF 2015,RF,2015,internal,30m,79.44,82.25,3.27
+RF 2024,RF,2024,internal,30m,78.11,86.45,3.38
+CFATD 2005,CFATD,2005,external,30m,107.05,68.19,3.65
+Huang 2005,Huang,2005,external,30m,62.04,59.74,1.85
+Su 2005,Su,2005,external,500m,78.01,99.43,3.88
+CFATD 2015,CFATD,2015,external,30m,113.29,74.19,4.2
+Chang 2015,Chang,2015,external,1km,90.08,44.23,1.99
+Saatchi 2015,Saatchi,2015,external,1km,71.21,71.65,2.55
+CFATD 2023,CFATD,2023,external,30m,117.53,77.6,4.56
+Reference,Reference,0,external,10m,88.86,40.07,1.78
+Zhao,Zhao,2005,literature,NA,92.44,46.8,2.17
+Xu,Xu,2015,literature,NA,90.08,97.02,2.96

@@ -1,0 +1,6 @@
+{
+  "res_dir": "I:\\AGB_models\\Res",
+  "covariates_dir": "E:\\DATA\\Python\\AGB_NE\\R3_revision\\covariates_1km",
+  "gating_dir": "I:\\AGB_models\\Res\\gating",
+  "region_path": "I:\\Shp\\SHP\\dongbei.shp"
+}

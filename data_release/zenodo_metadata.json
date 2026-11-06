@@ -1,0 +1,40 @@
+{
+  "_notes": [
+    "Deposition metadata for the Zenodo legacy REST API (https://developers.zenodo.org/#representation).",
+    "Keys starting with '_' are removed by zenodo_upload.py before sending.",
+    "'description' is replaced by zenodo_description.html."
+  ],
+  "upload_type": "dataset",
+  "title": "Forest aboveground biomass of Northeast China at 30 m resolution (2005, 2015, 2024) and AGB change maps",
+  "creators": [
+    {"name": "Zhou, Yuxuan", "affiliation": "Institute of Carbon Neutrality, Key Laboratory of Sustainable Forest Ecosystem Management-Ministry of Education, School of Ecology, Northeast Forestry University, Harbin 150040, China; O'Neill School of Public and Environmental Affairs, Indiana University, Bloomington, IN, USA"},
+    {"name": "Feng, Lianjun", "affiliation": "Institute of Carbon Neutrality, Key Laboratory of Sustainable Forest Ecosystem Management-Ministry of Education, School of Ecology, Northeast Forestry University, Harbin 150040, China"},
+    {"name": "Zhang, Rong", "affiliation": "College of Forestry, Wildlife and Environment, Auburn University, Auburn, AL, USA"},
+    {"name": "Ouyang, Zutao", "affiliation": "College of Forestry, Wildlife and Environment, Auburn University, Auburn, AL, USA"},
+    {"name": "Barnes, Mallory", "affiliation": "O'Neill School of Public and Environmental Affairs, Indiana University, Bloomington, IN, USA"},
+    {"name": "Tang, Xuli", "affiliation": "Key Laboratory of Vegetation Restoration and Management of Degraded Ecosystems, South China Botanical Garden, Chinese Academy of Sciences, Guangzhou, China"},
+    {"name": "Du, Zhenggang", "affiliation": "Institute of Carbon Neutrality, Key Laboratory of Sustainable Forest Ecosystem Management-Ministry of Education, School of Ecology, Northeast Forestry University, Harbin 150040, China"},
+    {"name": "Zhou, Xuhui", "affiliation": "Institute of Carbon Neutrality, Key Laboratory of Sustainable Forest Ecosystem Management-Ministry of Education, School of Ecology, Northeast Forestry University, Harbin 150040, China"}
+  ],
+  "description": "@zenodo_description.html",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "forest aboveground biomass",
+    "carbon stock",
+    "machine learning",
+    "random forest",
+    "multi-source remote sensing",
+    "Landsat",
+    "ALOS PALSAR",
+    "Northeast China",
+    "30 m"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://github.com/Yu-xuan-Zhou/NEChina-AGB-30m", "relation": "isSupplementedBy", "resource_type": "software"}
+  ],
+  "version": "1.0.0",
+  "language": "eng",
+  "notes": "Version 1.0.0 holds the three random-forest AGB maps and the three change maps of the paper 'Integrating Multi-Source Data with Machine Learning to Estimate Forest Aboveground Biomass Dynamics in Northeast China' (Zhou Y. et al., Journal of Plant Ecology, manuscript JPE-2026-0380). Corresponding author: Zhenggang Du (zgdu@nefu.edu.cn).",
+  "prereserve_doi": true
+}

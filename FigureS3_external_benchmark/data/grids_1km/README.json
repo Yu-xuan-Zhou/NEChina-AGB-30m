@@ -1,0 +1,10 @@
+{
+  "grid": "EPSG:4326, 2349x1782, 0.008333 deg (~1km)",
+  "files": {
+    "grid_RF.npy": "RF 2024 (forest)",
+    "grid_CTREES.npy": "CTrees 2024",
+    "grid_CFATD.npy": "CFATD 2023"
+  },
+  "units": "Mg ha-1, nan=invalid",
+  "note": "area-averaged from the native rasters (scripts_upstream/build_grids.py)"
+}

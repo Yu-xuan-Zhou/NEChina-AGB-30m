@@ -1,0 +1,13 @@
+Data source,Year,Type,Resolution,Density(Mg ha-1),Forest area(Mha),Total carbon(Pg C)
+RF,2005,internal,30 m,83.63,61.89,2.59
+Cubist,2005,internal,30m,86.84,77.41,3.36
+MLR,2005,internal,30m,102.71,74.05,3.8
+Su,2005,external,500m,78.01,99.43,3.88
+Zhao,2005,Inventory,NA,92.44,46.8,2.17
+RF,2015,internal,30 m,79.44,82.25,3.27
+Cubist,2015,internal,30m,74.59,82.25,3.07
+MLR,2015,internal,30m,82.26,77.92,3.21
+Saatchi,2015,external,1km,71.21,71.65,2.55
+Xu,2015,Inventory,NA,90.08,97.02,2.96
+RF,2024,internal,30 m,78.11,86.45,3.38
+Liu,2024,external,10m,88.86,40.07,1.78
