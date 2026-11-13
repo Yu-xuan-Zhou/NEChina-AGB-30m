@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and the data record below."
+title: "Forest aboveground biomass of Northeast China at 30 m (2005, 2015, 2024): code for the figures, tables and model workflow"
+type: software
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
+repository-code: "https://github.com/Yu-xuan-Zhou/NEChina-AGB-30m"
+authors:
+  - family-names: Zhou
+    given-names: Yuxuan
+    affiliation: "Northeast Forestry University; Indiana University"
+  - family-names: Feng
+    given-names: Lianjun
+    affiliation: "Northeast Forestry University"
+  - family-names: Zhang
+    given-names: Rong
+    affiliation: "Auburn University"
+  - family-names: Ouyang
+    given-names: Zutao
+    affiliation: "Auburn University"
+  - family-names: Barnes
+    given-names: Mallory
+    affiliation: "Indiana University"
+  - family-names: Tang
+    given-names: Xuli
+    affiliation: "South China Botanical Garden, Chinese Academy of Sciences"
+  - family-names: Du
+    given-names: Zhenggang
+    affiliation: "Northeast Forestry University"
+    email: zgdu@nefu.edu.cn
+  - family-names: Zhou
+    given-names: Xuhui
+    affiliation: "Northeast Forestry University"
+references:
+  - type: data
+    title: "Forest aboveground biomass of Northeast China at 30 m (2005, 2015, 2024) and its change"
+    doi: 10.5281/zenodo.23906949
+    year: 2026
+    authors:
+      - family-names: Zhou
+        given-names: Yuxuan
+      - family-names: Du
+        given-names: Zhenggang
+      - family-names: Zhou
+        given-names: Xuhui
+preferred-citation:
+  type: article
+  title: "Integrating Multi-Source Data with Machine Learning to Estimate Forest Aboveground Biomass Dynamics in Northeast China"
+  journal: "Journal of Plant Ecology"
+  year: 2026
+  notes: "manuscript JPE-2026-0380"
+  authors:
+    - family-names: Zhou
+      given-names: Yuxuan
+    - family-names: Feng
+      given-names: Lianjun
+    - family-names: Zhang
+      given-names: Rong
+    - family-names: Ouyang
+      given-names: Zutao
+    - family-names: Barnes
+      given-names: Mallory
+    - family-names: Tang
+      given-names: Xuli
+    - family-names: Du
+      given-names: Zhenggang
+    - family-names: Zhou
+      given-names: Xuhui

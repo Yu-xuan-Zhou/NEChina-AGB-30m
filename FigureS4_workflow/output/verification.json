@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "labels_compared": 45,
+  "labels_changed": 3,
+  "patches_unchanged": 78,
+  "line_objects_unchanged": 3,
+  "all_text_positions_and_styles_unchanged": true,
+  "changed_labels_fit_original_boxes": true,
+  "backup_hashes_verified": true,
+  "editable_svg_text_verified": true,
+  "png_pixels": [
+    4440,
+    6850
+  ],
+  "unchanged_driver_branches": true
+}

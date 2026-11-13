@@ -1,0 +1,14 @@
+# working copies and caches that never belong in the repository
+_backup*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+Thumbs.db
+.DS_Store
+~$*
+*.tmp
+logs/
+*.log

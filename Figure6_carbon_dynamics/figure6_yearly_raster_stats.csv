@@ -1,0 +1,19 @@
+Scope,RegionKey,Region,Year,Raster,n_pixels,area_ha,density,stock_pg
+regional,changbai,Changbai Mt.,2005,I:\AGB_models\regiona\RF_2005\changbai_cropped.tif,200658975,13203506.306847017,96.04680495841114,0.6340772975104435
+regional,changbai,Changbai Mt.,2015,I:\AGB_models\regiona\RF_2015\changbai_cropped.tif,257266555,16967612.750138357,88.44478014591355,0.7503483896434934
+regional,changbai,Changbai Mt.,2024,I:\AGB_models\regiona\RF_2024\changbai_cropped.tif,260210935,17160868.79890749,93.49550937101121,0.8022320848014745
+regional,daxing,Daxing'anling,2005,I:\AGB_models\regiona\RF_2005\daxing_cropped.tif,300433994,17040244.803379986,75.64889539932254,0.644537848354871
+regional,daxing,Daxing'anling,2015,I:\AGB_models\regiona\RF_2015\daxing_cropped.tif,365304847,20857481.906117518,74.77310017618112,0.7797892919945051
+regional,daxing,Daxing'anling,2024,I:\AGB_models\regiona\RF_2024\daxing_cropped.tif,376930967,21548016.4685058,73.93227605784703,0.7965469510243025
+regional,dongbei,Northeast China,2005,I:\AGB_models\regiona\RF_2005\dongbei_cropped.tif,687699241,41538283.56051449,84.2376643058751,1.749543993206435
+regional,dongbei,Northeast China,2015,I:\AGB_models\regiona\RF_2015\dongbei_cropped.tif,913883959,55751110.00882303,79.56944201346673,2.2180423575167243
+regional,dongbei,Northeast China,2024,I:\AGB_models\regiona\RF_2024\dongbei_cropped.tif,960555639,58678767.56046892,78.443043261854,2.3014705511490696
+regional,2000frozen,Permafrost,2005,I:\AGB_models\regiona\RF_2005\2000frozen_cropped.tif,299677485,16920871.210866973,72.7962447233609,0.6158879407993721
+regional,2000frozen,Permafrost,2015,I:\AGB_models\regiona\RF_2015\2000frozen_cropped.tif,348109951,19721339.32192501,75.03383028691313,0.7398838138559739
+regional,2000frozen,Permafrost,2024,I:\AGB_models\regiona\RF_2024\2000frozen_cropped.tif,357370968,20263654.989606887,71.67473678730957,0.726196068864463
+regional,xiaoxing,Xiaoxing'anling,2005,I:\AGB_models\regiona\RF_2005\xiaoxing_cropped.tif,126480381,7584169.309807064,81.93651406061174,0.31071019764553326
+regional,xiaoxing,Xiaoxing'anling,2015,I:\AGB_models\regiona\RF_2015\xiaoxing_cropped.tif,145816242,8732088.55537739,89.41138704565725,0.39037407477090097
+regional,xiaoxing,Xiaoxing'anling,2024,I:\AGB_models\regiona\RF_2024\xiaoxing_cropped.tif,148216944,8877073.67001799,82.35261405766742,0.3655251109542364
+root,dongbei,Northeast China,2005,I:\AGB_models\RF_2005.tif,687710895,41539054.77539917,84.23742744294337,1.749571556345569
+root,dongbei,Northeast China,2015,I:\AGB_models\RF_2015.tif,913915190,55753163.82314916,79.56866768430991,2.2181024822965227
+root,dongbei,Northeast China,2024,I:\AGB_models\RF_2024.tif,960589141,58680966.160981975,78.44233452282522,2.3015359888611675

@@ -1,0 +1,223 @@
+<p>Data accompanying the paper <strong>Integrating Multi-Source Data with Machine Learning to Estimate
+Forest Aboveground Biomass Dynamics in Northeast China</strong> (<em>Journal of Plant Ecology</em>,
+manuscript JPE-2026-0380).</p>
+<p>Authors: Yuxuan Zhou (1, 3), Lianjun Feng (1), Rong Zhang (2), Zutao Ouyang (2), Mallory
+Barnes (3), Xuli Tang (4), Zhenggang Du (1, corresponding), Xuhui Zhou (1, corresponding).</p>
+<ol>
+<li>Institute of Carbon Neutrality, Key Laboratory of Sustainable Forest Ecosystem
+   Management-Ministry of Education, School of Ecology, Northeast Forestry University, Harbin
+   150040, China</li>
+<li>College of Forestry, Wildlife and Environment, Auburn University, Auburn, AL, USA</li>
+<li>O'Neill School of Public and Environmental Affairs, Indiana University, Bloomington, IN, USA</li>
+<li>Key Laboratory of Vegetation Restoration and Management of Degraded Ecosystems, South China
+   Botanical Garden, Chinese Academy of Sciences, Guangzhou, China</li>
+</ol>
+<p>Contact: Zhenggang Du, Northeast Asia Ecosystem Carbon Sink Research Center (NACC), Key
+Laboratory of Sustainable Forest Ecosystem Management-Ministry of Education, School of
+Forestry, Northeast Forestry University, Harbin 150040, China; zgdu@nefu.edu.cn</p>
+<p>This record holds the three random-forest (RF) AGB maps of the paper and the three change
+maps drawn in Figure 5.</p>
+<h2>Files</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Size (GB)</th>
+<th>Valid pixels</th>
+<th>Pixel arithmetic mean (Mg ha-1)</th>
+<th>Min</th>
+<th>Max</th>
+<th>Check</th>
+<th>sha256 (first 12)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NEChina_AGB_30m_RF_2005.tif</code></td>
+<td>1.51</td>
+<td>687,710,895</td>
+<td>83.63</td>
+<td>10.2</td>
+<td>160.2</td>
+<td>passed</td>
+<td>fd768f3aba6c</td>
+</tr>
+<tr>
+<td><code>NEChina_AGB_30m_RF_2015.tif</code></td>
+<td>2.07</td>
+<td>913,915,190</td>
+<td>79.44</td>
+<td>11.2</td>
+<td>174.0</td>
+<td>passed</td>
+<td>ca7e161738f7</td>
+</tr>
+<tr>
+<td><code>NEChina_AGB_30m_RF_2024.tif</code></td>
+<td>2.20</td>
+<td>960,589,141</td>
+<td>78.11</td>
+<td>11.3</td>
+<td>173.5</td>
+<td>passed</td>
+<td>6c707d391236</td>
+</tr>
+<tr>
+<td><code>NEChina_AGBchange_30m_2005_2015.tif</code></td>
+<td>2.14</td>
+<td>919,979,172</td>
+<td>16.40</td>
+<td>-155.9</td>
+<td>172.1</td>
+<td>passed</td>
+<td>4617f0ab1285</td>
+</tr>
+<tr>
+<td><code>NEChina_AGBchange_30m_2005_2024.tif</code></td>
+<td>2.27</td>
+<td>969,335,841</td>
+<td>18.07</td>
+<td>-157.5</td>
+<td>171.6</td>
+<td>passed</td>
+<td>b61435f4de9e</td>
+</tr>
+<tr>
+<td><code>NEChina_AGBchange_30m_2015_2024.tif</code></td>
+<td>2.34</td>
+<td>989,505,121</td>
+<td>2.45</td>
+<td>-172.2</td>
+<td>170.7</td>
+<td>passed</td>
+<td>f552205440b5</td>
+</tr>
+</tbody>
+</table>
+<p>Full checksums: <code>sha256sums.txt</code> and <code>md5sums.txt</code>. Each <code>.tif</code> has a <code>.json</code> with the
+statistics of the Float32 source and of the released file, the comparison results and the
+encoding. The means in this file table and the per-file JSON reports are unweighted pixel
+arithmetic means used to check the encoding. They are distinct from the area-weighted
+regional means reported below.</p>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NEChina_AGB_30m_RF_2005.tif</code></td>
+<td>AGB 2005; RF model, Landsat 5 TM (2005) + ALOS PALSAR (2007 mosaic) predictors</td>
+</tr>
+<tr>
+<td><code>NEChina_AGB_30m_RF_2015.tif</code></td>
+<td>AGB 2015; RF model, Landsat 8 OLI + ALOS-2 PALSAR-2 predictors</td>
+</tr>
+<tr>
+<td><code>NEChina_AGB_30m_RF_2024.tif</code></td>
+<td>AGB 2024; the 2015 RF model applied to Landsat 9 OLI + PALSAR-2 predictors of 2024</td>
+</tr>
+<tr>
+<td><code>NEChina_AGBchange_30m_2005_2015.tif</code></td>
+<td>AGB 2015 minus AGB 2005 (Figure 5 d)</td>
+</tr>
+<tr>
+<td><code>NEChina_AGBchange_30m_2015_2024.tif</code></td>
+<td>AGB 2024 minus AGB 2015 (Figure 5 e)</td>
+</tr>
+<tr>
+<td><code>NEChina_AGBchange_30m_2005_2024.tif</code></td>
+<td>AGB 2024 minus AGB 2005 (Figure 5 f)</td>
+</tr>
+</tbody>
+</table>
+<h2>Grid and format</h2>
+<ul>
+<li>72,632 columns x 55,084 rows, EPSG:4326 (WGS 84), pixel 0.000269494585 degrees (nominal
+  30 m resolution); upper-left corner 115.5218184 E, 53.5636658 N;
+  extent 115.52-135.10 E, 38.72-53.56 N. All six files share this grid exactly.
+  Actual pixel area varies with latitude and is calculated on the WGS 84 ellipsoid.</li>
+<li>Int16; <strong>stored value = 10 x AGB in Mg ha-1</strong> (scale factor 0.1 is written in the band
+  metadata; GDAL tools, QGIS, R <code>terra</code> and ArcGIS apply it; in <code>rasterio</code> / numpy multiply
+  by 0.1 yourself). Precision 0.1 Mg ha-1; the largest difference to the Float32 originals is
+  0.05 Mg ha-1 and the pixel arithmetic means agree to better than 1e-5 Mg ha-1.</li>
+<li>NoData = -32768: outside the forest mask (and, in the AGB maps, source pixels &lt;= 0).</li>
+<li>Cloud-optimised GeoTIFF: DEFLATE (level 9, predictor 2), 512 x 512 tiles, overviews
+  (average resampling, factors 2-256). The files can be read in place over HTTP with
+  <code>/vsicurl/</code> or opened in QGIS without downloading when the host supports range requests.</li>
+<li>Tags in each file: TITLE, YEAR, UNITS, SCALE_FACTOR, NODATA_VALUE, VALUE_RULE, FOREST_MASK,
+  MODEL, SOURCE_FILE, CRS, CREATED, REFERENCE.
+  Existing TIFFs contain a descriptive CRS tag stating "about 30 m, 0.09 ha". This is a
+  legacy nominal-resolution description, not the actual area of each geographic-grid
+  pixel; do not use 0.09 ha for regional area or stock calculations. The raster CRS,
+  transform and pixel values are unchanged.</li>
+</ul>
+<h2>Definitions</h2>
+<ul>
+<li><strong>AGB</strong>: aboveground biomass of living trees, dry mass, Mg ha-1 (oven-dry tonnes per hectare).</li>
+<li><strong>Forest mask</strong>: China Annual Tree Cover Dataset (CATCD; Cai et al. 2024) tree cover &gt; 10 %
+  of the same year. After applying this mask, forest area is operationally defined as
+  the summed WGS 84 ellipsoidal area of valid, finite pixels with AGB &gt; 0. Pixels outside
+  the mask, NoData and AGB &lt;= 0 are excluded. The resulting forest areas are 41.54 Mha in
+  2005, 55.75 Mha in 2015 and 58.68 Mha in 2024 (Table 2 of the paper).</li>
+<li><strong>Change maps</strong>: AGB of the later year minus AGB of the earlier year, over the union of the
+  forest pixels of both years, as drawn in Figure 5 d-f; positive = gain. A pixel that is
+  forest in only one of the two years enters with AGB = 0 for the year in which it is not
+  forest, so new forest shows its full later-year AGB as a gain and cleared forest its full
+  earlier-year AGB as a loss.</li>
+<li><strong>Regional statistics of the paper</strong> (Table 2, Figure 6): calculated from the Float32
+  RF source maps using the same mask and AGB &gt; 0 rule. For valid pixel i with AGB density
+  B_i (Mg ha-1) and WGS 84 ellipsoidal area a_i (ha), forest area = sum(a_i), area-weighted
+  mean AGB density = sum(B_i x a_i) / sum(a_i), and AGB carbon stock =
+  sum(B_i x a_i) x 0.50 / 1e9 (Pg C; carbon fraction 0.50). Pixel areas are calculated
+  between the latitude boundaries of each raster row. The values for Northeast China are:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Area-weighted mean AGB density (Mg ha-1)</th>
+<th>Forest area (Mha)</th>
+<th>AGB carbon stock (Pg C)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2005</td>
+<td>84.24</td>
+<td>41.54</td>
+<td>1.75</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>79.57</td>
+<td>55.75</td>
+<td>2.22</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>78.44</td>
+<td>58.68</td>
+<td>2.30</td>
+</tr>
+</tbody>
+</table>
+<h2>Method summary</h2>
+<p>Field plots compiled from the literature (two periods, 2005-2010 and 2011-2015) were matched
+with growing-season Landsat composites, PALSAR / PALSAR-2 mosaics and SRTM terrain; nine model /
+data combinations (RF, Cubist, MLR x Landsat, PALSAR, both) were compared over 100 random
+training / validation splits; the RF model on Landsat + PALSAR was used for the maps. The code
+of every figure and of the model workflow, including the scripts that built and checked the
+files of this record, is in the GitHub repository
+<a href="https://github.com/Yu-xuan-Zhou/NEChina-AGB-30m">https://github.com/Yu-xuan-Zhou/NEChina-AGB-30m</a> (MIT License).</p>
+<h2>Processing</h2>
+<p>The maps were exported from Google Earth Engine as Float32 GeoTIFF (masked with CATCD) and
+converted with <code>build_release_maps.py</code>: values multiplied by 10 and rounded to Int16, NaN (and,
+for the AGB maps, values &lt;= 0) set to NoData, written as cloud-optimised GeoTIFF with
+<code>gdal_translate</code> (GDAL 3.6.2).</p>
+<h2>Licence and citation</h2>
+<p>Licence: Creative Commons Attribution 4.0 International (CC BY 4.0).
+Please cite the paper and this record: Zenodo, <a href="https://doi.org/10.5281/zenodo.23906949">https://doi.org/10.5281/zenodo.23906949</a>
+(version 1.0.0).</p>

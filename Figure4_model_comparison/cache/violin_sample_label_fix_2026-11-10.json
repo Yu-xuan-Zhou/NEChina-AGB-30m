@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-10",
+  "change": "Corrected RF/MLR 2015 panel-b labels; exchanged only cache keys, preserving sample values.",
+  "verification_before_fix": {
+    "source_RF_2015_prefix4096_equals_cache_MLR_2015": true,
+    "source_MLR_2015_prefix4096_equals_cache_RF_2015": true
+  },
+  "backup": "E:\\DATA\\Python\\AGB_NE\\figures\\Figure4_model_comparison\\_backup_before_2015_label_fix_2026-11-10",
+  "sample_array_sha256": {
+    "RF_2005": "5ba0a63d902b20e0d3750465e2663094d5f4ee47a6426eb4502dac9522ecda9c",
+    "MLR_2005": "4077ae40914c89bcc08dd8f00d264e3ff80c92b07d4c6fd6e10c04b719731a9e",
+    "Cubist_2005": "84cab0c82a63f90bf03182cd4f22b23d47ed43b6003d5a26bbc8579dd90e7e9b",
+    "RF_2015": "fda9c2fa054404cd66f693a17e68539598db556ac2d348e26bbe2cd413d8710a",
+    "MLR_2015": "0727d78df4167192e92f3851d3a69520e4e7b45f83bb887cc117492138704a0c",
+    "Cubist_2015": "104e2f9b88162c0ae44a69d68dd01992fbf537e91817e3f26de6d95ce79923f6"
+  }
+}

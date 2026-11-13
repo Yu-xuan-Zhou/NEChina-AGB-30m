@@ -1,0 +1,55 @@
+{
+  "source_script": "E:\\DATA\\Dropbox\\AGB\\1021\\Figs\\Fig4\\historage.R",
+  "corroborating_plot_script": "E:\\DATA\\Dropbox\\AGB\\1021\\Figs\\Fig4\\1111.R",
+  "actual_breaks": [
+    -100,
+    20,
+    40,
+    60,
+    80,
+    100,
+    130,
+    "Infinity"
+  ],
+  "right_closed": true,
+  "include_lowest": true,
+  "correction": "The legacy model CSV class labelled 120 - 130 actually covers (100, 130]. Model class proportions are retained; field observations are reclassified using exactly the legacy model breaks. No separate 100-120 class is fabricated.",
+  "csv_sources": [
+    {
+      "current": "E:\\DATA\\Python\\AGB_NE\\figures\\Figure4_model_comparison\\data\\density_class\\Cubist_2005_mask_10.csv",
+      "original": "E:\\DATA\\Dropbox\\AGB\\1021\\Figs\\Fig4\\historage\\Cubist_2005_mask_10.csv",
+      "byte_identical": true,
+      "sha256": "66328d260ae322865fdc98ba2f6997132f9d17af9a25dd4ba14471c8df797dc5"
+    },
+    {
+      "current": "E:\\DATA\\Python\\AGB_NE\\figures\\Figure4_model_comparison\\data\\density_class\\Cubist_2015_mask_10.csv",
+      "original": "E:\\DATA\\Dropbox\\AGB\\1021\\Figs\\Fig4\\historage\\Cubist_2015_mask_10.csv",
+      "byte_identical": true,
+      "sha256": "9316111709dd96932ef8b17682a33939b41835ba5f16c8e407ea1ef1207dca3e"
+    },
+    {
+      "current": "E:\\DATA\\Python\\AGB_NE\\figures\\Figure4_model_comparison\\data\\density_class\\MLR_2005_mask_10.csv",
+      "original": "E:\\DATA\\Dropbox\\AGB\\1021\\Figs\\Fig4\\historage\\MLR_2005_mask_10.csv",
+      "byte_identical": true,
+      "sha256": "ebe96dc05a3423b1e23595c7375ce1732eda3e964fc2c44a1555bbd127ccfd68"
+    },
+    {
+      "current": "E:\\DATA\\Python\\AGB_NE\\figures\\Figure4_model_comparison\\data\\density_class\\MLR_2015_mask_10.csv",
+      "original": "E:\\DATA\\Dropbox\\AGB\\1021\\Figs\\Fig4\\historage\\MLR_2015_mask_10.csv",
+      "byte_identical": true,
+      "sha256": "8af7fbf670ec29382744634cdd2db92a94055676af92408c221a336070584e65"
+    },
+    {
+      "current": "E:\\DATA\\Python\\AGB_NE\\figures\\Figure4_model_comparison\\data\\density_class\\RF_2005_mask_10.csv",
+      "original": "E:\\DATA\\Dropbox\\AGB\\1021\\Figs\\Fig4\\historage\\RF_2005_mask_10.csv",
+      "byte_identical": true,
+      "sha256": "44178fadd54e4ae33ac90197e1762352f5037287748b91599af9b89f57db3655"
+    },
+    {
+      "current": "E:\\DATA\\Python\\AGB_NE\\figures\\Figure4_model_comparison\\data\\density_class\\RF_2015_mask_10.csv",
+      "original": "E:\\DATA\\Dropbox\\AGB\\1021\\Figs\\Fig4\\historage\\RF_2015_mask_10.csv",
+      "byte_identical": true,
+      "sha256": "3ad425885c36fe51a8a32cc003443ce68be7f57759bd172507645ca0faff10b0"
+    }
+  ]
+}
